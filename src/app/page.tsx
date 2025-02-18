@@ -3,7 +3,6 @@ import { NavigationTabs } from "@/components/navbar-tab";
 import { TableFilters } from "@/components/table-data";
 
 import { Button } from "@/components/ui/button";
-import { SidebarProvider } from "@/components/ui/sidebar";
 import { Building2, Calendar, FileText, LayoutGrid, LogOut } from "lucide-react";
 import Image from "next/image";
 
@@ -14,7 +13,7 @@ export default function Home() {
         {/* Sidebar */}
         <div className="w-16 bg-indigo-600 flex flex-col items-center py-4 gap-6">
           <div className="w-10 h-10 rounded-full overflow-hidden">
-            <img
+            <Image
               src="https://i0.wp.com/www.commercialphotographynorthwestblog.co.uk/wp-content/uploads/2020/10/MDH_8729webqualitysquare.jpg?w=864&ssl=1"
               alt="Logo"
               className="w-full h-full object-cover"

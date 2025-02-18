@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { AlertCircle, ChevronDown, Clock, Info, Link2 } from "lucide-react"
+import { AlertCircle, ChevronDown, Clock,  Link2 } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
 export default function AttendanceTable() {
