@@ -78,26 +78,8 @@ yarn dev
 # or
 pnpm dev
 
-# The application will be available at http://localhost:3000
+### The application will be available at http://localhost:3000
 
-# Project Structure 
-attendance-management/
-├── app/
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── AttendanceForm.tsx
-│   ├── AttendanceList.tsx
-│   ├── Dashboard.tsx
-│   └── ui/
-├── data/
-│   └── attendance.ts
-├── store/
-│   └── atoms.ts
-├── types/
-│   └── attendance.ts
-└── styles/
-    └── globals.css
 
 ## Contributing
 Fork the repository
